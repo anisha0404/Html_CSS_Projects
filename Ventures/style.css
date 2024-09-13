@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    width:1600px;
+    height:75px;
+    margin:auto;
+    margin-top: 5px;
+}
+.logo{
+    color:chartreuse;
+    font-size:40px;
+    padding-left:20px;
+    float:left;
+    padding-top:5px;
+    margin:5px;
+    height: 70px;
+    background-image: url(back2.webp);
+    background-size:contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.menu{
+    width:400px;
+    float:left;
+    height:50px;
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+}
+ul li{
+    margin-left:70px;
+    margin-top: 20px;
+    font-size: 14px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color:chartreuse;
+    font-family:cursive;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:cyan;
+}
+.searching{
+    float:right;
+    width:330px;
+    margin-left:270px;
+    margin-top: 2px;
+    position: absolute;
+    right:5px;
+}
+.srch{
+    font-family:cursive;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid chartreuse;
+    margin-top:13px;
+    color: #371b1b;
+    border-right: none;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    text-decoration: none;
+}
+.srch a{
+    text-decoration: none;
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    background:chartreuse;
+    border: 2px solid chartreuse;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    /*border-bottom-right-radius: 5px;*/
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.content{
+    height:auto;
+    margin:auto;
+    color:antiquewhite;
+    position: relative;
+    width: 1200px;
+    font-size:medium;
+    font-family:cursive;
+}
+.content .par{
+    padding-left:10px;
+    padding-bottom:20px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.content h1{
+    color:antiquewhite;
+    font-family:cursive;
+    font-size: 50px;
+    padding-left:10px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cn{
+    width:90px;
+    height:40px;
+    background-color:chartreuse;
+    border-radius:10px;
+    border:none;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    color:#000;
+    transition: 0.3 ease;
+}
+.cn:hover{
+    background-color: white;
+    transition: 0.4s ease;
+}
+.content span{
+    color:chartreuse;
+    font-size: 50px;
+}
+.form{
+    width:250px;
+    height:380px;
+    background: linear-gradient(to top,rgba(0,0,0,0,8)50%,rgba(0,0,0,0,8)50%);
+    position: absolute;
+    top:-20px;
+    left: 800px;
+    border-radius: 10px;
+    padding:25px;
+    transform: translate(0%,-5%);;
+
+}
+.form h2{
+    width:200px;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: chartreuse;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 8px;
+    margin:2px;
+
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid chartreuse;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: antiquewhite;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    margin-top: 30px;
+    font-family:cursive;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: antiquewhite;
+    font-family: cursive;
+
+}
+.form .btn{
+    border-radius: 10px;
+    font-size: larger;
+    font-family:cursive;
+    font-weight: bold;
+    color:#000;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: chartreuse;
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: antiquewhite;
+
+}
+.form a{
+    text-decoration: none;
+    color: #000;
+    font-family: cursive;
+}
+.form .link{
+    font-family:cursive;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color:chartreuse;
+}
+.liw{
+    padding-top:15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: antiquewhite;
+    transition: 0.4s ease;
+}
